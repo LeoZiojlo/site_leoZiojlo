@@ -1,0 +1,77 @@
+body { /*estilização das fontes e fundo do site*/
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+} 
+
+.navbar { /*barra de navegação do site*/
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 40px 20px;
+    font-size: large;
+    font-weight: 700;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav :hover {
+    color: #913333;
+}
+
+.minhafoto {
+    text-align:center;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.textosobremim {
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    padding: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.iconesformacao {
+    text-align: center;
+}
+
+.embreve {
+    text-align: center;
+    padding: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 10px;
+    text-align: center;
+}
